@@ -600,7 +600,7 @@ try
 		<div class="Map">
 			<div id="map"></div>
 			<div id="legend" style="display: none"><strong>Legend</strong></div>
-			<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo getenv('AIzaSyCD1YYbI0RUEly2pLDFa-acss0K1-PAdqg'); ?>&libraries=geometry,places&callback=initMap" async defer></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCD1YYbI0RUEly2pLDFa-acss0K1-PAdqg<?php echo getenv('AIzaSyCD1YYbI0RUEly2pLDFa-acss0K1-PAdqg'); ?>&libraries=geometry,places&callback=initMap" async defer></script>
 		</div>
 		<div class="TypeLabel">
 			Select restaurant option:
