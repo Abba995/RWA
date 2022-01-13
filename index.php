@@ -43,8 +43,8 @@ try
 	}
 	
 	#set address, coordinates to PKI by default. If cookie exists set to home coordinates.
-	$address = "PKI";
-	$latLong = "41.247389, -96.016763";
+	$address = "ABUJA";
+	$latLong = "9.05785, 7.49508";
 	if (isset($_COOKIE["latCookie"]) && isset($_COOKIE["longCookie"])) {
 		$address = "Home";
 		$latLong = $_COOKIE["latCookie"] . ", " . $_COOKIE["longCookie"];
