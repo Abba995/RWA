@@ -590,7 +590,7 @@ try
 	  <li><a class="active" href="/">Home</a></li>
 	  <li><a id="getLocation" href="/">Update Location</a></li>
 	  <li><a id="clearLocation" href="/">Clear Location</a></li>
-	  <li><a href ="https://github.com/MSMareddy/WebAppSWE">About</a></li>
+	  <li><a href ="#">About</a></li>
 	</ul>
 	<form method = "post">
 	<div class="grid-container">
